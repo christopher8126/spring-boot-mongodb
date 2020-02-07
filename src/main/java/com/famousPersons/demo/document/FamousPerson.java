@@ -12,10 +12,16 @@ public class FamousPerson {
 
     private final String name;
     private final String bio;
+    private final String date;
 
-    public FamousPerson( String name, String bio) {
+    public FamousPerson(String name, String bio, String date) {
         this.name = name;
         this.bio = bio;
+        this.date = date;
+    }
+
+    public String getDate() {
+        return date;
     }
 
     public String getId() {
